@@ -24,7 +24,14 @@ jobs:
           gradle-version: 8.13
 
       - name: Build debug APK
-        run: gradle assembleDebug --stacktrace
+        shell: bash
+        run: gradle assembleDebug --stacktrace 2>&1 | tee build.log
+
+      - name: Show real errors
+        if: failure()
+        run: |
+          echo "=== ERRORS ==="
+          grep -n -E "^e: |error:|\[ksp\]|Error:|cannot find|unresolved|Unresolved" build.log | head -60
 
       - name: Upload APK
         if: success()
