@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">القرآن الكريم</string>
+
+    <!-- Tabs -->
+    <string name="tab_quran">القرآن</string>
+    <string name="tab_search">البحث</string>
+    <string name="tab_bookmarks">العلامات</string>
+    <string name="tab_settings">الإعدادات</string>
+
+    <!-- Search -->
+    <string name="search_hint">ابحث في الآيات (بدون تشكيل)</string>
+    <string name="search_min_query">أدخل حرفين على الأقل</string>
+    <string name="search_no_results">لا توجد نتائج</string>
+
+    <!-- Surah list -->
+    <string name="continue_reading">متابعة القراءة</string>
+    <string name="ayah_count_format">%1$d آية</string>
+    <string name="revelation_meccan">مكية</string>
+    <string name="revelation_medinan">مدنية</string>
+    <string name="last_read_label">آخر موضع للقراءة</string>
+
+    <!-- Reader -->
+    <string name="back">رجوع</string>
+    <string name="ayah_label">الآية %1$s</string>
+    <string name="loading">جارٍ التحميل…</string>
+    <string name="bookmark_add">علامة مرجعية</string>
+    <string name="bookmark_remove">إزالة العلامة</string>
+    <string name="bookmark_added">تمت إضافة العلامة</string>
+    <string name="bookmark_removed">تمت إزالة العلامة</string>
+    <string name="selected_ayah_close">إغلاق</string>
+
+    <!-- Bookmarks -->
+    <string name="bookmarks_empty">لم تضع أي علامة بعد</string>
+
+    <!-- Settings -->
+    <string name="settings_font_size">حجم خط القرآن</string>
+    <string name="settings_theme">المظهر</string>
+    <string name="theme_system">النظام</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+    <string name="settings_about">حول التطبيق والمصادر</string>
+    <string name="settings_font_test">شاشة اختبار عرض الخط</string>
+
+    <!-- About -->
+    <string name="about_title">حول التطبيق والمصادر</string>
+    <string name="about_quran_source">نص القرآن الكريم (النسخة العثمانية) مأخوذ من مشروع Tanzil ويُعرض دون أي تغيير.</string>
+    <string name="about_license_line">رخصة النص: Creative Commons Attribution 3.0 — شروط الاستخدام: ذكر المصدر (مشروع Tanzil) ووضع رابط إلى tanzil.net مع هذا الإشعار نفسه. النص الكامل للشروط في ملف SOURCES.md.</string>
+    <string name="about_font_line">خط العرض: Amiri Quran — رخصة SIL Open Font License الإصدار 1.1 (نص الرخصة داخل التطبيق في assets/OFL-AmiriQuran.txt).</string>
+    <string name="about_privacy_line">لا يجمع هذا التطبيق أي بيانات، ولا يملك أي إذن وصول (بما في ذلك الإنترنت)، ويعمل دون اتصال بالكامل.</string>
+    <string name="about_updates_line">لمتابعة تحديثات النص: tanzil.net</string>
+
+    <!-- Font test (debug aid) -->
+    <string name="font_test_title">اختبار عرض الخط</string>
+    <string name="font_test_note">هذه الشاشة لمراجعة جودة عرض الخط فقط. نص كل آية يُقرأ كما هو من قاعدة البيانات.</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">قرآن</string>
+
+    <!-- Tabs -->
+    <string name="tab_quran">قرآن</string>
+    <string name="tab_search">جستجو</string>
+    <string name="tab_bookmarks">نشانه‌ها</string>
+    <string name="tab_settings">تنظیمات</string>
+
+    <!-- Search -->
+    <string name="search_hint">جستجو در آیات (بدون اعراب)</string>
+    <string name="search_min_query">دست‌کم دو حرف بنویسید</string>
+    <string name="search_no_results">نتیجه‌ای پیدا نشد</string>
+
+    <!-- Surah list -->
+    <string name="continue_reading">ادامهٔ خواندن</string>
+    <string name="ayah_count_format">%1$d آیه</string>
+    <string name="revelation_meccan">مکی</string>
+    <string name="revelation_medinan">مدنی</string>
+    <string name="last_read_label">آخرین جای خواندن</string>
+
+    <!-- Reader -->
+    <string name="back">بازگشت</string>
+    <string name="ayah_label">آیهٔ %1$s</string>
+    <string name="loading">در حال بارگذاری…</string>
+    <string name="bookmark_add">نشانه‌گذاری</string>
+    <string name="bookmark_remove">حذف نشانه</string>
+    <string name="bookmark_added">نشانه‌گذاری شد</string>
+    <string name="bookmark_removed">نشانه حذف شد</string>
+    <string name="selected_ayah_close">بستن</string>
+
+    <!-- Bookmarks -->
+    <string name="bookmarks_empty">هنوز آیه‌ای نشانه‌گذاری نکرده‌اید</string>
+
+    <!-- Settings -->
+    <string name="settings_font_size">اندازهٔ متن قرآن</string>
+    <string name="settings_theme">حالت نمایش</string>
+    <string name="theme_system">بر اساس سیستم</string>
+    <string name="theme_light">روشن</string>
+    <string name="theme_dark">شب</string>
+    <string name="settings_about">درباره و منابع</string>
+    <string name="settings_font_test">صفحهٔ آزمایش نمایش فونت</string>
+
+    <!-- About -->
+    <string name="about_title">درباره و منابع</string>
+    <string name="about_quran_source">متن قرآن کریم (نسخهٔ عثمانی) از پروژهٔ Tanzil گرفته شده است و بدون هیچ تغییری نمایش داده می‌شود.</string>
+    <string name="about_license_line">مجوز متن: Creative Commons Attribution 3.0 — شرط استفاده: ذکر منبع (پروژهٔ Tanzil) و پیوند به tanzil.net، همراه همین اطلاعیهٔ کپی‌رایت. متن کامل شرایط در فایل SOURCES.md مخزن پروژه آمده است.</string>
+    <string name="about_font_line">فونت نمایش: Amiri Quran — مجوز SIL Open Font License نسخهٔ ۱.۱ (متن مجوز داخل اپ در assets/OFL-AmiriQuran.txt همراه فونت است).</string>
+    <string name="about_privacy_line">این برنامه هیچ داده‌ای جمع‌آوری نمی‌کند، هیچ اجازهٔ دسترسی (از جمله اینترنت) ندارد و کاملاً آفلاین کار می‌کند.</string>
+    <string name="about_updates_line">برای پیگیری به‌روزرسانی متن قرآن: tanzil.net</string>
+
+    <!-- Font test (debug aid) -->
+    <string name="font_test_title">آزمایش نمایش فونت</string>
+    <string name="font_test_note">این صفحه فقط برای بازبینی کیفیت نمایش فونت است. متن هر آیه عیناً از دیتابیس خوانده می‌شود.</string>
+</resources>

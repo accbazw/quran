@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Crescent: outer arc + inner arc meeting at two cusps -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,26 a30,30 0 1,0 0,56 a26,26 0 1,1 0,-56 z" />
+    <!-- Four-point star -->
+    <path
+        android:fillColor="#E9C46A"
+        android:pathData="M73,32 l2.4,7 7,2.4 -7,2.4 -2.4,7 -2.4,-7 -7,-2.4 7,-2.4 z" />
+</vector>
