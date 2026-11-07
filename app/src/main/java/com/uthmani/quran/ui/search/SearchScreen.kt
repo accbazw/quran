@@ -57,7 +57,8 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import javax.inject.Inject
-
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Row
 data class SearchUiState(
     val query: String = "",
     val results: List<SearchRow> = emptyList(),
